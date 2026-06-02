@@ -1,9 +1,4 @@
 streamlit
-pandas
-openpyxl
 langchain
 langchain-community
 langchain-core
-langchain-mistralai
-faiss-cpu
-sentence-transformers
