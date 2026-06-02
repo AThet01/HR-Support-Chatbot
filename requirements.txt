@@ -7,3 +7,4 @@ langchain-classic
 openpyxl
 sentence-transformers
 faiss-cpu
+#pip install streamlit langchain langchain-community langchain-core langchain-mistralai openpyxl sentence-transformers faiss-cpu pandas
