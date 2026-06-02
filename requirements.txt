@@ -5,3 +5,4 @@ langchain-core
 langchain-mistralai
 langchain-classic
 openpyxl
+sentence-transformers
