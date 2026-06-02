@@ -4,11 +4,13 @@ from langchain_community.vectorstores import FAISS
 # Upgraded to a powerful multilingual embedding pipeline
 from langchain_community.embeddings import HuggingFaceEmbeddings
 from langchain_mistralai import ChatMistralAI
-from langchain_classic.chains import create_retrieval_chain
-from langchain_classic.chains.combine_documents import create_stuff_documents_chain
+from langchain.chains import create_retrieval_chain
+# FIX: Changed 'langchain_classic' to 'langchain'
+from langchain.chains.combine_documents import create_stuff_documents_chain
 from langchain_core.prompts import ChatPromptTemplate
 
 def process_qa_excel(file):
+    # Your function code continues here...
     """
     Reads the specific QA structure from the Excel sheets,
     and indexes the questions into the FAISS vector database.
